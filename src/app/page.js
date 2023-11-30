@@ -1,8 +1,10 @@
+import { Navigation } from "@/components/Navigation";
+
 export default function Page() {
   return (
       <main>
 
-    hei
+    <Navigation userIsLoggedIn={true}/>
 
       </main>    
   )
